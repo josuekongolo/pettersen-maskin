@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html lang="no">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Tjenester fra Even B. Pettersen Maskin - Graving, massetransport, planering, VA-arbeid, drenering og snøbrøyting i Eidsvoll og Øvre Romerike.">
+    <meta name="keywords" content="graving eidsvoll, massetransport øvre romerike, planering nannestad, VA-arbeid ullensaker, drenering, snøbrøyting">
+    <meta name="author" content="Even B. Pettersen Maskin AS">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🚧</text></svg>">
+
+    <title>Tjenester | Even B. Pettersen Maskin AS</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Open+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="header__inner">
+                <a href="index.html" class="logo">
+                    <div class="logo__icon">
+                        <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M4 21h16v-2H4v2zm0-4h16v-2H4v2zm0-6h10V5c0-1.1-.9-2-2-2H6c-1.1 0-2 .9-2 2v6zm12-6h2l4 4v6h-2v-5l-3-3h-1V5z"/>
+                        </svg>
+                    </div>
+                    <span class="logo__text">Even B. Pettersen<span>Maskin AS</span></span>
+                </a>
+
+                <nav class="nav">
+                    <ul class="nav__list">
+                        <li><a href="index.html" class="nav__link">Hjem</a></li>
+                        <li><a href="tjenester.html" class="nav__link nav__link--active">Tjenester</a></li>
+                        <li><a href="utstyr.html" class="nav__link">Utstyr</a></li>
+                        <li><a href="om-meg.html" class="nav__link">Om meg</a></li>
+                        <li><a href="kontakt.html" class="nav__link">Kontakt</a></li>
+                    </ul>
+                </nav>
+
+                <div class="header__actions">
+                    <a href="tel:+4790000000" class="header__phone">
+                        <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/>
+                        </svg>
+                        900 00 000
+                    </a>
+                    <a href="kontakt.html" class="btn btn--primary header__cta">Få tilbud</a>
+                </div>
+
+                <button class="menu-toggle" aria-label="Meny">
+                    <span class="menu-toggle__line"></span>
+                    <span class="menu-toggle__line"></span>
+                    <span class="menu-toggle__line"></span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Mobile Menu -->
+    <div class="mobile-menu">
+        <ul class="mobile-menu__list">
+            <li class="mobile-menu__item"><a href="index.html" class="mobile-menu__link">Hjem</a></li>
+            <li class="mobile-menu__item"><a href="tjenester.html" class="mobile-menu__link">Tjenester</a></li>
+            <li class="mobile-menu__item"><a href="utstyr.html" class="mobile-menu__link">Utstyr</a></li>
+            <li class="mobile-menu__item"><a href="om-meg.html" class="mobile-menu__link">Om meg</a></li>
+            <li class="mobile-menu__item"><a href="kontakt.html" class="mobile-menu__link">Kontakt</a></li>
+        </ul>
+        <a href="tel:+4790000000" class="mobile-menu__phone">
+            <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/>
+            </svg>
+            Ring meg: 900 00 000
+        </a>
+        <a href="kontakt.html" class="btn btn--primary">Få tilbud</a>
+    </div>
+
+    <!-- Page Hero -->
+    <section class="page-hero">
+        <div class="container">
+            <h1 class="page-hero__title fade-in">Tjenester</h1>
+            <p class="page-hero__subtitle fade-in">Jeg utfører det meste innen grunnarbeid – fra hageprosjekter til større utbygginger</p>
+        </div>
+        <div class="page-hero__pattern"></div>
+    </section>
+
+    <!-- Service: Graving -->
+    <section class="service-detail">
+        <div class="container">
+            <div class="service-detail__content">
+                <div class="service-detail__image fade-in-left">
+                    <img src="https://placehold.co/800x500/1E3A5F/FFFFFF?text=Graving" alt="Graving og gravemaskintjenester">
+                </div>
+                <div class="service-detail__text fade-in-right">
+                    <h3>Graving</h3>
+                    <p>Med gravemaskin i flere størrelser kan jeg utføre presist gravearbeid for alle typer prosjekter. Fra små hageprosjekter til tomtegraving for nybygg.</p>
+                    <ul class="service-detail__list">
+                        <li>
+                            <svg viewBox="0 0 24 24"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/></svg>
+                            Tomtegraving for hus og garasje
+                        </li>
+                        <li>
+                            <svg viewBox="0 0 24 24"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/></svg>
+                            Grøfter for kabler og rør
+                        </li>
+                        <li>
+                            <svg viewBox="0 0 24 24"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/></svg>
+                            Kjeller og fundamenter
+                        </li>
+                        <li>
+                            <svg viewBox="0 0 24 24"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/></svg>
+                            Hage og uteområder
+                        </li>
+                    </ul>
+                    <span class="service-detail__highlight">Gravemaskin i flere størrelser</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Service: Massetransport -->
+    <section class="service-detail">
+        <div class="container">
+            <div class="service-detail__content">
+                <div class="service-detail__image fade-in-right">
+                    <img src="https://placehold.co/800x500/F5B800/1E3A5F?text=Massetransport" alt="Massetransport med tippbil">
+                </div>
+                <div class="service-detail__text fade-in-left">
+                    <h3>Massetransport</h3>
+                    <p>Med bakgrunn fra transportbransjen har jeg god erfaring med massetransport. Jeg kombinerer gjerne graving og transport for en komplett løsning.</p>
+                    <ul class="service-detail__list">
+                        <li>
+                            <svg viewBox="0 0 24 24"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/></svg>
+                            Transport av jord og stein
+                        </li>
+                        <li>
+                            <svg viewBox="0 0 24 24"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/></svg>
+                            Bortkjøring av masser
+                        </li>
+                        <li>
+                            <svg viewBox="0 0 24 24"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/></svg>
+                            Levering av fyllmasser og pukk
+                        </li>
+                        <li>
+                            <svg viewBox="0 0 24 24"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/></svg>
+                            Tippbil med god kapasitet
+                        </li>
+                    </ul>
+                    <span class="service-detail__highlight">Kombinerer graving og transport</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Service: Planering -->
+    <section class="service-detail">
+        <div class="container">
+            <div class="service-detail__content">
+                <div class="service-detail__image fade-in-left">
+                    <img src="https://placehold.co/800x500/1E3A5F/FFFFFF?text=Planering" alt="Planering og terrengarbeid">
+                </div>
+                <div class="service-detail__text fade-in-right">
+                    <h3>Planering</h3>
+                    <p>Jevn og stabil grunn er grunnlaget for alle byggeprosjekter. Jeg utfører planering med presisjon for optimalt resultat.</p>
+                    <ul class="service-detail__list">
+                        <li>
+                            <svg viewBox="0 0 24 24"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/></svg>
+                            Tomteklargjøring
+                        </li>
+                        <li>
+                            <svg viewBox="0 0 24 24"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/></svg>
+                            Terrengforming
+                        </li>
+                        <li>
+                            <svg viewBox="0 0 24 24"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/></svg>
+                            Opparbeiding av gårdsplass
+                        </li>
+                        <li>
+                            <svg viewBox="0 0 24 24"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/></svg>
+                            Parkeringsplasser
+                        </li>
+                    </ul>
+                    <span class="service-detail__highlight">Flatt og ferdig til bygging</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Service: Vann og avløp -->
+    <section class="service-detail">
+        <div class="container">
+            <div class="service-detail__content">
+                <div class="service-detail__image fade-in-right">
+                    <img src="https://placehold.co/800x500/F5B800/1E3A5F?text=VA-arbeid" alt="Vann og avløp arbeid">
+                </div>
+                <div class="service-detail__text fade-in-left">
+                    <h3>Vann og avløp</h3>
+                    <p>Jeg graver grøfter for vann, avløp og kabler. Viktig infrastruktur som krever nøyaktighet og erfaring.</p>
+                    <ul class="service-detail__list">
+                        <li>
+                            <svg viewBox="0 0 24 24"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/></svg>
+                            VA-grøfter
+                        </li>
+                        <li>
+                            <svg viewBox="0 0 24 24"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/></svg>
+                            Stikkledninger
+                        </li>
+                        <li>
+                            <svg viewBox="0 0 24 24"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/></svg>
+                            Kabelgrøfter
+                        </li>
+                        <li>
+                            <svg viewBox="0 0 24 24"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/></svg>
+                            Oppgradering av eksisterende anlegg
+                        </li>
+                    </ul>
+                    <span class="service-detail__highlight">Infrastruktur som fungerer</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Service: Drenering -->
+    <section class="service-detail">
+        <div class="container">
+            <div class="service-detail__content">
+                <div class="service-detail__image fade-in-left">
+                    <img src="https://placehold.co/800x500/1E3A5F/FFFFFF?text=Drenering" alt="Drenering">
+                </div>
+                <div class="service-detail__text fade-in-right">
+                    <h3>Drenering</h3>
+                    <p>God drenering er viktig for å unngå fuktproblemer. Jeg utfører drenering rundt hus, landbruksdrenering og overvannshåndtering.</p>
+                    <ul class="service-detail__list">
+                        <li>
+                            <svg viewBox="0 0 24 24"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/></svg>
+                            Drenering rundt hus
+                        </li>
+                        <li>
+                            <svg viewBox="0 0 24 24"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/></svg>
+                            Landbruksdrenering
+                        </li>
+                        <li>
+                            <svg viewBox="0 0 24 24"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/></svg>
+                            Overvannshåndtering
+                        </li>
+                    </ul>
+                    <span class="service-detail__highlight">Viktig for tørre kjellere</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Service: Snøbrøyting -->
+    <section class="service-detail">
+        <div class="container">
+            <div class="service-detail__content">
+                <div class="service-detail__image fade-in-right">
+                    <img src="https://placehold.co/800x500/F5B800/1E3A5F?text=Snøbrøyting" alt="Snøbrøyting">
+                </div>
+                <div class="service-detail__text fade-in-left">
+                    <h3>Snøbrøyting</h3>
+                    <p>Om vinteren tilbyr jeg snøbrøyting for private veier, gårdsplasser og parkeringsplasser. Holder det fremkommelig hele vinteren.</p>
+                    <ul class="service-detail__list">
+                        <li>
+                            <svg viewBox="0 0 24 24"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/></svg>
+                            Brøyting av private veier
+                        </li>
+                        <li>
+                            <svg viewBox="0 0 24 24"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/></svg>
+                            Gårdsplasser og parkeringsplasser
+                        </li>
+                        <li>
+                            <svg viewBox="0 0 24 24"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/></svg>
+                            Strøing ved behov
+                        </li>
+                    </ul>
+                    <span class="service-detail__highlight">Holder det fremkommelig om vinteren</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Process Section -->
+    <section class="process">
+        <div class="container">
+            <div class="section-header fade-in">
+                <span class="section-header__label">Arbeidsprosess</span>
+                <h2 class="section-header__title">Slik jobber jeg</h2>
+                <div class="section-header__line"></div>
+            </div>
+
+            <div class="process-grid">
+                <div class="process-step fade-in stagger-1">
+                    <div class="process-step__number">1</div>
+                    <div class="process-step__content">
+                        <h4>Kontakt</h4>
+                        <p>Ring eller send melding. Vi tar en prat om prosjektet ditt.</p>
+                    </div>
+                </div>
+
+                <div class="process-step fade-in stagger-2">
+                    <div class="process-step__number">2</div>
+                    <div class="process-step__content">
+                        <h4>Befaring</h4>
+                        <p>Gratis befaring for å se området og diskutere løsninger.</p>
+                    </div>
+                </div>
+
+                <div class="process-step fade-in stagger-3">
+                    <div class="process-step__number">3</div>
+                    <div class="process-step__content">
+                        <h4>Tilbud</h4>
+                        <p>Du mottar et tydelig tilbud basert på befaringen.</p>
+                    </div>
+                </div>
+
+                <div class="process-step fade-in stagger-4">
+                    <div class="process-step__number">4</div>
+                    <div class="process-step__content">
+                        <h4>Utførelse</h4>
+                        <p>Arbeidet utføres effektivt til avtalt tid og pris.</p>
+                    </div>
+                </div>
+
+                <div class="process-step fade-in stagger-5">
+                    <div class="process-step__number">5</div>
+                    <div class="process-step__content">
+                        <h4>Ferdig</h4>
+                        <p>Opprydding og gjennomgang. Du skal være fornøyd.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Banner -->
+    <section class="cta-banner">
+        <div class="container">
+            <div class="fade-in">
+                <h2 class="cta-banner__title">Klar for å komme i gang?</h2>
+                <div class="cta-banner__buttons">
+                    <a href="kontakt.html" class="btn btn--secondary">Få gratis befaring</a>
+                    <a href="tel:+4790000000" class="btn btn--outline" style="border-color: var(--color-primary); color: var(--color-primary);">Ring 900 00 000</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__inner">
+                <div class="footer__brand">
+                    <a href="index.html" class="logo">
+                        <div class="logo__icon">
+                            <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M4 21h16v-2H4v2zm0-4h16v-2H4v2zm0-6h10V5c0-1.1-.9-2-2-2H6c-1.1 0-2 .9-2 2v6zm12-6h2l4 4v6h-2v-5l-3-3h-1V5z"/>
+                            </svg>
+                        </div>
+                        <span class="logo__text">Even B. Pettersen<span>Maskin AS</span></span>
+                    </a>
+                    <p class="footer__tagline">Graving og maskinarbeid i Eidsvoll</p>
+                </div>
+
+                <div class="footer__nav">
+                    <h4 class="footer__title">Sider</h4>
+                    <ul class="footer__links">
+                        <li><a href="tjenester.html">Tjenester</a></li>
+                        <li><a href="utstyr.html">Utstyr</a></li>
+                        <li><a href="om-meg.html">Om meg</a></li>
+                        <li><a href="kontakt.html">Kontakt</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer__contact">
+                    <h4 class="footer__title">Kontakt</h4>
+                    <p><a href="tel:+4790000000">900 00 000</a></p>
+                    <p><a href="mailto:post@pettersen-maskin.no">post@pettersen-maskin.no</a></p>
+                    <p>Edvard A Bratvolds veg 14<br>2073 Bøn</p>
+                </div>
+
+                <div class="footer__area">
+                    <h4 class="footer__title">Dekningsområde</h4>
+                    <p>Eidsvoll, Nannestad, Ullensaker, Hurdal, Nes, Nord-Odal</p>
+                </div>
+            </div>
+
+            <div class="footer__bottom">
+                <p>Org.nr: 936805442</p>
+                <p>&copy; 2025 Even B. Pettersen Maskin AS. Alle rettigheter reservert.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
